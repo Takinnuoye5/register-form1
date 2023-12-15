@@ -8,8 +8,8 @@
 
 .individual-form .left-wrapper {
   background-color: #ffffff;
-  width: 1440px;
-  height: 840px;
+  width: 100%;
+  height: auto;
 }
 
 .individual-form .overlap {
@@ -375,4 +375,15 @@ text-decoration: underline;
   --basic-100: rgba(255, 255, 255, 1);
   --clgreen: rgba(46, 196, 182, 1);
   --clgray-3: rgba(240, 240, 240, 1);
+}
+/* Your existing CSS styles */
+
+/* Media query for screens smaller than 600px (adjust as needed) */
+@media only screen and (max-width: 600px) {
+  .individual-form {
+    flex-direction: column; /* Adjust layout for smaller screens */
+  }
+
+
+  /* Add more styles for other elements as needed */
 }
